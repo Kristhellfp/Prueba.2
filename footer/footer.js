@@ -1,0 +1,2 @@
+let footer = document.querySelector(".footer");
+footer.innerHTML = '<div class="footer-block">Footer Bloque 1</div><div class="footer-block">Footer Bloque 2</div><div class="footer-block">Footer Bloque 3</div>'

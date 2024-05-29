@@ -2,17 +2,17 @@ body {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
     grid-template-rows: auto 1fr auto;
-    gap: 5px;
+    gap: 10px;
+    height: 100vh;
     margin: 0;
 }
 header {
-    grid-column:  1/4;
+    grid-column: 2 / 3;
     background-color: green;
     text-align: center;
     padding: 10px;
     color: white;
     font-size: 1.5em;
-    gap: 5px;
 }
 nav {
     background-color: lightgreen;
@@ -34,7 +34,6 @@ main {
     gap: 10px;
     grid-column: 1 / 4;
     grid-row: 3;
-    height: 40rem;
 }
 .block {
     background-color: orange;
